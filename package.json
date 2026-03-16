@@ -1,0 +1,38 @@
+{
+  "name": "@dinakars777/create-nexus",
+  "version": "1.0.0",
+  "description": "Scaffold the ultimate Agent-Native Boilerplate. Next.js, Hono, Drizzle, Zod, with built-in .agent control plane.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "create-nexus": "dist/index.js",
+    "create-nexus-app": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsup watch",
+    "build": "tsup src/index.ts --format esm --clean"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "boilerplate",
+    "nextjs",
+    "hono",
+    "drizzle"
+  ],
+  "author": "Dinakar Sarbada",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^11.1.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.2"
+  }
+}
