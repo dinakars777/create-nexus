@@ -1,6 +1,6 @@
 {
   "name": "@dinakars777/create-nexus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Scaffold the ultimate Agent-Native Boilerplate. Next.js, Hono, Drizzle, Zod, with built-in .agent control plane.",
   "main": "dist/index.js",
   "type": "module",
