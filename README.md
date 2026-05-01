@@ -10,7 +10,7 @@ Most Next.js boilerplates are optimized for human readability. **create-nexus** 
 
 ## The Problem
 
-When you ask an AI agent to "build a feature" in a standard Next.js codebase, it hallucinates. It mixes Pages Router with App Router, writes raw SQL instead of using your ORM, or bypasses your API layer entirely. **create-nexus** generates a fortress that governs AI behavior by design.
+AI agents "build a feature" and hallucinate. They mix Pages Router with App Router, write raw SQL instead of using your ORM. **create-nexus** generates a fortress that governs AI behavior.
 
 ## Quick Start
 
